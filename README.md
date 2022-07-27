@@ -7,7 +7,6 @@ Usage:
 ```
 services.AddTransient<IProtocolProvider, SftpProvider>();
 services.AddTransient<IProtocolProvider, EmailProvider>();
-services.AddTransient<ITransferService, TransService>();
 ```
 
 * Adding needed Configuration for email and accessible (s)ftp servers. The IOptions pattern is highly recommended.
